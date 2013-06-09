@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS Code Start*/
+body {
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1GOiwhh1XPJGMkVe9WLCE9Av-egJI8N60q0ib-HZCRKjkwe2v");
+	background-repeat:no-repeat;
+	/*background-size: 1118px 650px;*/
+	background-size: 100%;
+}
+#nav_bar {
+	margin-left:30px;
+}
+#nav_bar li {
+	list-style-type:none;
+	display:inline;
+	float:left;
+	font-size:14px;
+	font-family:Times New Roman, Times, Arial, Helvetica;
+	font-weight:bold;
+	color:#000000;
+	margin:20px 10px 40px 10px;
+}
+#nav_bar li a {
+	text-decoration:none;
+	color:#000000;
+}
+#nav_bar li a:hover {
+	text-decoration:underline;
+	color:#0000cd;
+}
+#pageTitle {
+	clear:both;
+	margin-top:50px;
+	margin-bottom:50px;
+	color:#000000;
+	font-size:16px;
+	font-family:inherit;
+}
+#pageTitle h1 {
+	font-size:30px;
+	font-weight:bold;
+	color:#000000;
+	margin-bottom:30px;
+}
+#hot {
+	background-color:#b22222;
+	border-radius:5px;
+	padding:3px;
+	color:#ffffff;
+	text-shadow:1px 1px;
+}
+#cold {
+	background-color:#0000ff;
+	color:#ffffff;
+	border-radius:5px;
+	padding:3px;
+	text-shadow:1px 1px;
+}
+#pageTitle p a {
+	color:#000000;
+}
+#pageTitle p a:hover {
+	color:#0000cd;
+	font-weight:bold;
+}
+#mission {
+	font-weight:bold;
+	color:#000000;
+	font-size:20px;
+}
+#guess_box {
+	border:1px solid #000000;
+	height:300px;
+	width:400px;
+	/*margin-left:400px;*/
+	background-color: #c0c0c0;
+	opacity:.9;
+	border-radius:20px;
+}
+#instructions {
+	border:1px solid #000000;
+	padding:15px;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#a9a9a9;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+}
+#input {
+	margin:60px;
+}
+#input input {
+	height:80px;
+	width:100px;
+	font-size:40px;
+	font-weight:bold;
+}
+#submit {
+	margin-top:10px;
+}
+#answer {
+	font-size:20px;
+	font-weight:bold;
+	font-family:inherit;
+	color:#000000;
+	margin:20px 0;
+}
+#answer p {
+	display:none;
+	position:absolute;
+	left:410px;
+	top:460px;
+}
+#warmer {
+	color:#b22222;
+}
+#colder {
+	color:#0000ff;
+}
+#high {
+	color:#ffff00;
+}
+#low {
+	color:#ffff00;
+}
+#buttons {
+	margin-top:30px;
+	margin-bottom:0;
+	padding-bottom:55px;
+}
+.button {
+	padding:5px 20px;
+	margin:0 20px;
+	border-radius:25px;
+	font-weight:bold;
+	color:#000000;
+}
+#new_game {
+	background-color:#008000;
+}
+#cheat {
+	background-color:#b22222;
+	padding-left:33px;
+	padding-right:33px;
+}

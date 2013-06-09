@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Huckle Buckle Beanstalk</title>
+	<link type="text/css" rel="stylesheet" href="hot_or_cold_css/HotOrCold.css"/>
+	<script type="text/javascript" src="hot_or_cold_js/jquery.js"></script>
+	<script type="text/javascript" src="hot_or_cold_js/HotOrCold.js"></script>
+</head>
+<body>
+	<center>
+		<div id="nav_bar">
+			<ul>
+				<li><a href="file:///Users/kimmydietrich/Desktop/Thinkful/Projects/HotOrCold.html">Home</a>
+				</li>
+				<li>
+					<a href="http://en.wikipedia.org/wiki/Huckle_buckle_beanstalk">Game History</a>
+				</li>
+			</ul>
+		</div>
+		<div id="pageTitle">
+			<h1>Huckle Buckle Beanstalk: <span id="hot">HOT</span> or <span id="cold">COLD</span>?</h1>
+			<p><span id="mission">Objective:</span> The computer has selected a number between 1 and 100. As the <a href="http://harrypotter.wikia.com/wiki/Seeker">seeker</a>, your mission is to find the number.</p>
+		</div>
+		<div id="guess_box">
+			<div id="instructions">
+				<p>Enter your guess in the box below</p>
+			</div>
+			<div id="input">
+				<input type="number" name="guess" id="guess" maxlength="3" autocomplete="off"/>
+				<div id="submit">
+					<input type="submit" name="submit" id="submit"/>
+				</div>
+				<div id="answer">
+					<p id="high">Your guess is too high!</p>
+					<p id="low">Your guess is too low!</p>
+					<p id="warmer">You are getting warmer!</p>
+					<p id="colder">Brrrr! You are getting colder!</p>
+					<p id="exact">You have won the match! Great Job!</p>
+				</div>
+			</div>
+		</div>
+		<div id="buttons">
+			<button name="new_game" id="new_game" class="button">New Game</button>
+			<button name="cheat" id="cheat" class="button">Cheat</button>
+		</div>
+	</center>
+</body>
+</html>
+
