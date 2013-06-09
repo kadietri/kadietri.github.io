@@ -1,0 +1,1089 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS Code Start*/
+.wrapper {
+	overflow:auto;
+	width:1197px;
+	height:3338px;
+}
+#marathon_banner img {
+	margin:10px 0 20px 0;
+}
+li {
+	display:inline;
+	list-style-type:none;
+}
+#logo_bar {
+	margin-bottom:15px;
+}
+#logo {
+	margin:0 10px 0 20px;
+}
+#twitter {
+	margin-right:310px;
+}
+#search_icon img {
+	vertical-align:text-bottom;
+}
+#log-in {
+	margin:0 10px 0 10px;
+	font-size:12px;
+	color:#202f5b;
+	text-decoration:none;
+	font-family:arial, helvetica, sans-serif;
+	line-height:1.5;
+}
+#register {
+	font-size:12px;
+	color:#202f5b;
+	text-decoration:none;
+	font-family:arial, helvetica, sans-serif;
+	line-height:1.5;
+}
+/*Toolbar #1*/
+#toolbar_1 {
+	margin-left:20px;
+	margin-bottom:10px;
+}
+#toolbar_1 a {
+	text-decoration:none;
+	font-size:12px;
+	color:#202f5b;
+	line-height:1.5;
+	font-family:arial, helvetica, sans-serif;
+	padding-right:10px;
+}
+.hover_1 {
+	display:none;
+}
+#toolbar_1 .hover_1 {
+	display:none;
+}
+#toolbar_1 li .hover_1 {
+	position:absolute;
+	display:none;
+	border:1px solid #999999;
+}
+#forums {
+	position:absolute;
+	left:105px;
+	height:286px;
+	width:286px;
+	background:white;
+	z-index:1;
+}
+#forums a {
+	padding:0;
+	margin:0;
+}
+#forums ul {
+	display:inline-block;
+}
+#forum.left li {
+	float:left;
+	width:147px;
+	height:264px;
+}
+#forum.right li {
+	float:right;
+	height:264px;
+	width:143px;
+}
+#toolsBar {
+	position:absolute;
+	left:203px;
+	background:white;
+	z-index:1;
+	height:234px;
+	width:130px;
+	border:1px solid #999999;
+}
+#toolsBar a {
+	padding:0;
+	margin:0;
+}
+#columns {
+	position:absolute;
+	left:270px;
+	background:white;
+	z-index:1;
+	height:260px;
+	width:278px;
+}
+#columns ul {
+	display:inline-block;
+}
+#columns a {
+	padding:0;
+	margin:0;
+}
+#columns.left li {
+	float:left;
+	height:240px;
+	width:152px;
+}
+#columns.right li {
+	float:right;
+	height:216px;
+	width:140px;
+}
+#video {
+	position:absolute;
+	left:312px;
+	background:white;
+	z-index:1;
+	height:234px;
+	width:124px;
+	border:1px solid #999999;
+}
+#video a {
+	padding:0;
+	margin:0;
+}
+#runningTimes {
+	position:absolute;
+	left:437px;
+	background:white;
+	z-index:1;
+	height:104px;
+	width:170px;
+}
+#runningTimes a {
+	padding:0;
+	margin:0;
+}
+#help {
+	position:absolute;
+	left:553px;
+	background:white;
+	z-index:1;
+	height:104px;
+	width:210px;
+	border:1px solid #999999;
+}
+#help a {
+	padding:0;
+	margin:0;
+}
+/*Hover Over Links Toolbar 1*/
+#toolbar_1 li:hover {
+	text-decoration:underline;
+}
+#toolbar_1 li:hover .hover_1 {
+	display:block;
+}
+#toolbar_1 li .hover_1 ul a li {
+	float:none;
+	display:block;
+	padding:4px 6px;
+	line-height: 1.5;
+	background-color:white;
+	color:#202f5b;
+	text-align:left;
+}
+#toolbar_1 li .hover_1 ul a li:hover {
+	background:#202f5b;
+	color:white;
+	text-decoration:none;
+}
+/*Toolbar #2*/
+#toolbar_2 {
+	margin-left:20px;
+	margin-right:20px;
+	height:30px;
+	background-color:#1d71a8;
+	padding-top:10px;
+}
+#toolbar_2 a {
+	text-decoration:none;
+	color:#ffffff;
+	font-size:11px;
+	font-weight:700;
+	font-family:arial, helvetica, sans-serif;
+	padding:0 12px;
+	vertical-align:middle;
+	line-height:14px;
+}
+#toolbar_2 li {
+	padding:9px 0 12px 0px;
+	border-right: 1px solid #fff;
+}
+#toolbar_2 li.active {
+	background-color:#202f5b;
+}
+#toolbar_2 li.breath {
+	background-color:#b22222;
+}
+#toolbar_2 li.shop {
+	border-right:none;
+	padding-left:5px;
+}
+.hover_2 {
+	display:none;
+}
+#toolbar_2 .hover_2 {
+	display:none;
+}
+#toolbar_2 li .hover_2 {
+	position:absolute;
+	display:none;
+	border:1px solid #999999;
+}
+#train {
+	position:absolute;
+	left:98px;
+	top:212px;
+	height:216px;
+	width:312px;
+	background:white;
+	z-index:1;
+}
+#train ul {
+	display:inline-block;
+}
+#train a {
+	padding:0;
+	margin:0;
+}
+#train.left li {
+	float:left;
+	width:153px;
+	height:220px;
+}
+#train.right li {
+	float:right;
+	height:220px;
+	width:170px;
+}
+#race {
+	position:absolute;
+	left:230px;
+	top:212px;
+	height:240px;
+	width:175px;
+	background-color:white;
+	z-index:1;
+}
+#race a {
+	padding:0;
+	margin:0;
+}
+#shoes {
+	position:absolute;
+	top:212px;
+	left:298px;
+	height:217px;
+	width:337px;
+	background-color:white;
+	z-index:1;
+}
+#shoes ul {
+	display:inline-block;
+}
+#shoes a {
+	padding:0;
+	margin:0;
+}
+#shoes.left li {
+	float:left;
+	height:212px;
+	width:146px;
+}
+#shoes.right li {
+	float:right;
+	height:212px;
+	width:211px;
+}
+#shoeImg img {
+	height:80px;
+	width:175px;
+	padding:62px 4px 62px 0px;
+}
+#healthy {
+	position:absolute;
+	left:410px;
+	top:212px;
+	width:380px;
+	height:115px;
+	background-color:white;
+	z-index:1;
+}
+#healthy ul {
+	display:inline-block;
+}
+#healthy a {
+	padding:0;
+	margin:0;
+}
+#healthy.left {
+	float:left;
+	height:120px;
+	width:189px;
+	padding-top:0;
+}
+#healthy.right {
+	float:right;
+	height:120px;
+	width:211px;
+}
+#healthyImg img {
+	height:86px;
+	width:181px;
+	padding:10px 8px 10px 0;
+}
+#nutrients {
+	position:absolute;
+	left:485px;
+	top:212px;
+	width:417px;
+	height:145px;
+	background-color:white;
+	z-index:1;
+}
+#nutrients ul {
+	display:inline-block;
+}
+#nutrients a {
+	padding:0;
+	margin:0;
+}
+#nutrients.left {
+	float:left;
+	height:142px;
+	width:415px;
+	padding-top:0;
+}
+#nutrients.right {
+	float:right;
+	height:142px;
+	width:201px;
+}
+#nutrientsImg img {
+	height:86px;
+	width:181px;
+	padding:20px 10px 20px 0;
+}
+#motive {
+	position:absolute;
+	left:575px;
+	top:212px;
+	height:192px;
+	width:266px;
+	background-color:white;
+	z-index:1;
+}
+#motive a {
+	padding:0;
+	margin:0;
+}
+#begin {
+	position:absolute;
+	left:675px;
+	top:212px;
+	width:354px;
+	height:145px;
+	background-color:white;
+	z-index:1;
+}
+#begin ul {
+	display:inline-block;
+}
+#begin a {
+	padding:0;
+	margin:0;
+}
+#begin.left li {
+	float:left;
+	height:170px;
+	width:160px;
+}
+#begin.right li {
+	float:right;
+	height:170px;
+	width:210px;
+}
+#beginImg img {
+	height:75px;
+	width:170px;
+	padding:28px 0;
+}
+#womens {
+	position:absolute;
+	left:768px;
+	top:212px;
+	width:220px;
+	height:145px;
+	background-color:white;
+	z-index:1;
+}
+#womens a {
+	padding:0;
+	margin:0;
+}
+#womensImg img {
+	padding:10px 0 10px 0;
+}
+#magazines {
+	position:absolute;
+	left:900px;
+	top:212px;
+	width:200px;
+	height:96px;
+	background-color:white;
+	z-index:1;
+}
+#magazines a {
+	padding:0;
+	margin:0;
+}
+#breaths {
+	position:absolute;
+	left:990px;
+	top:212px;
+	width:194px;
+	height:192px;
+	background-color:white;
+	z-index:1;
+}
+#breaths a {
+	padding:0;
+	margin:0;
+}
+#breathsImg img {
+	margin:0;
+	height:165px;
+	width:169px;
+	padding:7px 2px 7px 0;
+}
+#shopping {
+	position:absolute;
+	left:975px;
+	top:212px;
+	width:200px;
+	height:120px;
+	background-color:white;
+	z-index:1;
+}
+#shopping a {
+	padding:0;
+	margin:0;
+}
+/*Hover Over Links Toolbar 2*/
+#toolbar_2 li:hover {
+	background-color:#202f5b;
+}
+#toolbar_2 li:hover .hover_2 {
+	display:inline-block;
+}
+#toolbar_2 li .hover_2 ul a li {
+	float:none;
+	display:block;
+}
+#toolbar_2 li .hover_2 ul a li {
+	background-color:white;
+	color:#202f5b;
+	text-align:left;
+	padding:5px 8px;
+}
+#toolbar_2 li .hover_2 ul a li:hover {
+	background-color:#202f5b;
+	color:white;
+	text-decoration:none;
+}
+/*Slideshow Bar*/
+.slideshow_bar {
+	margin-top:30px;
+	margin-bottom:390px;
+}
+/*.slideshow_bar a {
+	width:820px;
+	height:350px;
+	padding-top:30px;
+	margin:0 10px 15px 10px;
+}*/
+/*.slideshow_bar img {
+	position:absolute;
+	top:272px;
+	right:360px;
+	height:310px;
+	width:500px;
+	padding-left:260px;
+}*/
+.slideshow_bar div.image_switcher {
+	position:absolute;
+	top:272px;
+	left:475px;
+	height:310px;
+	width:500px;
+}
+.slideshow_bar div.image_switcher div {
+	/*position:absolute;
+	top:502px;
+	left:370px;*/
+	height:80px;
+	width:485px;
+	background-color:#696969;
+	opacity:.75;
+	z-index:1;
+	margin-top:-82px;
+	padding-left:15px;
+}
+.image_switch_head {
+	color:white;
+	font-size: 25px;
+	font-weight:bold;
+	padding:10px 0 5px 0;
+	opacity:1;
+	text-decoration:none;
+}
+.image_switch_head:hover {
+	text-decoration:underline;
+}
+.image_switch_text {
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 0 10px 0;
+	opacity:1;
+	text-decoration:none;
+}
+.image_switch_text:hover {
+	text-decoration:underline;
+}
+/*Thumbnails*/
+.thumbnail_left {
+	position:absolute;
+	top:272px;
+	height:275px;
+	width:315px;
+	margin-left:50px;	
+}
+.thumbnail_left img {
+	height:100px;
+	width:100px;
+	padding:1px;
+}
+/*Newswire*/
+#newswire {
+	color:#333;
+	font-size:1.5em;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	text-decoration:none;
+}
+#newswire h1 {
+	margin:30px 0;
+	text-decoration:none;
+}
+#newsbar_left {
+	display:inline;
+	float:left;
+	text-align:left;
+	margin-left:115px;
+}
+#newsbar_right {
+	display:inline;
+	float:right;
+	text-align:left;
+	margin-right:115px;
+}
+.news_title {
+	font-size:15px;
+	font-weight:bold;
+	color:#202f5b;
+	text-decoration:none;
+}
+.news_title h2 {
+	text-decoration:none;
+	margin:5px 0;
+}
+.news_author {
+	font-size:10px;
+	color:#666666;
+}
+.news_content {
+	font-size:13px;
+	color:#333333;
+	line-height:1.5;
+}
+/*Sneak Peak*/
+#sneak_peak {
+	clear:both;
+	height:337px;
+}
+#sneak_peak img {
+	height:150px;
+	width:260px;
+}
+#shoes_gear {
+	height:337px;
+	width:260px;
+	display:inline-block;
+	margin-top:30px;
+}
+#nutrition_weightloss {
+	height:337px;
+	width:260px;
+	display:inline-block;
+	margin-top:30px;
+}
+#training_plans {
+	height:337px;
+	width:260px;
+	display:inline-block;
+	margin-top:30px;
+}
+#health_injuries {
+	height:337px;
+	width:250px;
+	display:inline-block;
+	vertical-align:bottom;
+	margin-top:30px;
+}
+.sp_title {
+	color:#333;
+	font-size:16px;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	line-height:1.5;
+	text-decoration:none;
+}
+.sp_title h1 {
+	text-decoration:none;
+}
+.sp_subtitle {
+	color:#202f5b;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:1.5;
+	font-family:arial, helvetica, sans-serif;
+}
+.sp_content {
+	font-size:12px;
+	line-height:1.5;
+	color:#666666;
+	font-family:arial, helvetica, sans-serif;
+}
+.sp_subtitle_links {
+	font-size:12px;
+	line-height: 1.5;
+	color:#202f5b;
+	font-weight:bold;
+	font-family: arial, helvetica, sans-serif;
+	text-decoration:none;
+}
+.more {
+	color:#1d71a8;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	text-decoration:none;
+	line-height:1.5;
+	font-size:12px;
+}
+/*Recent Columns and Video*/
+#recent_columns {
+	clear:both;
+	height:337px;
+	margin-top:15px;
+	padding-top:15px;
+	margin-bottom:-35px;
+	border-top:1px solid #ccc;
+}
+#column_left {
+	float:left;
+	margin-left:60px;
+}
+#column_title {
+	padding-bottom:20px;
+	font-size:20px;
+	text-decoration:none;
+}
+.column_text img {
+	height:60px;
+	width:60px;
+}
+.column_text_top {
+	display:inline-block;
+	height:70px;
+	width:200px;
+	padding:10px 5px 0 5px;
+	text-align:left;
+}
+.column_photo {
+	display:inline-block;
+}
+.column_text_middle {
+	display:inline-block;
+	height:70px;
+	width:200px;
+	padding:10px 5px 0 5px;
+	text-align:left;
+}
+.column_text_bottom {
+	display:inline-block;
+	height:70px;
+	width:200px;
+	text-align:left;
+}
+#bottom_column {
+	float:left;
+}
+#column_right {
+	float:right;
+	margin-right:160px;
+}
+/*Tools Section*/
+#tools {
+	clear:both;
+	margin:0px 5px 30px 5px;
+	border-top:1px solid #ccc;
+}
+#tools_title {
+	font-size:30px;
+	color:#333;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	line-height:1.5;
+	margin-bottom:20px;
+	margin-top:30px;
+}
+#running_tools {
+	display:inline-block;
+	vertical-align:bottom;
+	height:170px;
+	width:225px;
+	border:1px solid #ccc;
+	padding:5px;
+}
+#smart_coach {
+	height:83px;
+	width:260px;
+}
+#news_tools {
+	font-size:12px;
+}
+#clock_photo {
+	margin-left:-40px;
+}
+#tools_photo {
+	height:60px;
+	width:60px;
+	margin-left:-12px;
+}
+#tools_content {
+	width:150px;
+}
+#race_content_form {
+	text-align:left;
+}
+.tools_heading {
+	padding: 5px 0 15px 0;
+	font-size:18px;
+	color:#1d70b8;
+	font-family:arial, helvetica, sans-serif;
+}
+#race_finder {
+	display:inline-block;
+	vertical-align:bottom;
+	width:260px;
+	height:170px;
+	border:1px solid #ccc;
+	padding:5px;
+}
+.find_race {
+	display:block;
+	line-height:1.5;
+	padding:2px;
+	font-size:12px;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+}
+.find_race a {
+	text-decoration:none;
+	color:#1d70b8;
+	font-weight:normal;
+}
+#race_footer {
+	margin-top:12px;
+}
+#race_footer a {
+	float:left;
+	text-decoration:none;
+	font-size:13px;
+	line-height:20px;
+	color:#1d70b8;
+}
+#race_footer input {
+	float:right;
+}
+.find_race input {
+	float:right;
+	height:14px;
+	width:123px;
+}
+.find_race select {
+	float:right;
+	height:14px;
+	width:123px;
+}
+#newsletter {
+	display:inline-block;
+	vertical-align:bottom;
+	height:170px;
+	width:290px;
+	border:1px solid #ccc;
+	padding:5px;
+}
+#newsletter_left {
+	float:left;
+	display:block;
+	margin-bottom:10px;
+}
+#newsletter_right {
+	float:right;
+	display:block;
+	margin-bottom:10px;
+}
+.newsletter_selection {
+	font-size:11px;
+	font-weight:bold;
+	line-height:1.5;
+	font-family:arial, helvetica, sans-serif;
+	color:#333;
+	text-align:left;
+}
+#email {
+	display:block;
+	margin-top:15px;
+	text-align:left;
+}
+.form-submit {
+	background-color:#202f5b;
+	color:#fff;
+	float:right;
+	margin-right:2px;
+}
+#poll {
+	display:inline-block;
+	vertical-align:bottom;
+	height:176px;
+	width:280px;
+	border:1px solid #ccc;
+	padding:2px 5px;
+}
+#poll_content {
+	color:#333333;
+	font-weight:bold;
+	margin-top:-8px;
+	line-height:1.5;
+}
+.poll_options {
+	font-size:11px;
+	text-align:left;
+}
+#poll_submit {
+	float:left;
+}
+/*Sponsor Bar*/
+#sponsors {
+	display:block;
+	border-top:1px solid #ccc;
+	margin:30px 0;
+	padding-top:20px;
+}
+#sponsor_title {
+	margin-top:25px;
+}
+#sponsor_left {
+	display:inline-block;
+	float:left;
+	height:142px;
+	width:312px;
+	border:1px solid #ccc;
+	margin-left:200px;
+	margin-top:25px;
+	margin-bottom:30px;
+	padding:5px;
+}
+#sponsor_right {
+	display:inline-block;
+	float:right;
+	height:142px;
+	width:312px;
+	border:1px solid #ccc;
+	margin-right:200px;
+	margin-top:25px;
+	margin-bottom:30px;
+	padding:5px;
+}
+.sponsor_photo img {
+	margin:10px 0 5px 0;
+}
+#company {
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+/*Advertisements*/
+#advertisements {
+	clear:both;
+	display:block;
+	margin-top:30px;
+}
+#ads_title {
+	padding-top:30px;
+}
+.ads {
+	display:inline-block;
+	vertical-align:bottom;
+}
+.ads img {
+	margin:30px 0 15px 0;
+	padding:5px;
+	height:200px;
+	width:230px;
+}
+#long_ad {
+	display:block;
+	padding-bottom:20px;
+	margin-bottom: 30px;
+	border-bottom:1px solid #ccc;
+}
+/*Runner's World Info*/
+#runners_world_info {
+	display:block;
+	margin:30px 10px;
+}
+#rw_info_title {
+	font-size:30px;
+	font-weight:bold;
+}
+#rw-store {
+	border:1px solid #ccc;
+	width:276px;
+	height:250px;
+	padding:10px 2px 10px 2px;
+	display:inline-block;
+	vertical-align:bottom;
+}
+#rwstore-title {
+	margin:15px 0;
+}
+#rw-top {
+	margin-bottom:15px;
+}
+#two_free {
+	display:inline-block;
+	vertical-align:bottom;
+	margin-right:30px;
+}
+#two_free img {
+	/*height:275px;
+	width:240px;*/
+}
+#events_promos {
+	display:inline-block;
+	border:1px solid #ccc;
+	vertical-align:bottom;
+	padding-top:2px;
+	margin-left:10px;
+}
+#subscribe_run {
+	display:inline-block;
+	vertical-align:bottom;
+	margin-left:40px;
+}
+/*Bottom Navigation Bar*/
+#footer {
+	background-color:#eeeeee;
+	border-bottom: 6px solid #202f5b;
+	padding:10px;
+	height:110px;
+	width:978px;
+	margin:auto;
+	margin-bottom:80px;
+}
+.bottom_nav {
+	text-decoration:none;
+	color:#202f5b;
+	font-size:11px;
+	line-height:1.5;
+	font-family:arial, helvetica, sans-serif;
+	padding:0 3px;
+}
+.bottom_nav a {
+	text-decoration:none;
+}
+#bottom_nav_2 {
+	border-bottom:1px solid #fff;
+	padding:5px;
+}
+#payment_statement {
+	margin:10px 0;
+}
+/*
+padding:10px 0 0 0;
+margin:5px 0 0 0;
+color:#000;
+*/
+
+
+/*
+#more {
+	clear:both;
+	list-style-type:none;
+	height:26px;
+	width:335px;
+}
+#more li {
+	display:inline;
+	list-style-type:none;
+}
+*/

@@ -3,7 +3,6 @@
 <head>
 	<title>Shopping List</title>
 	<link type="text/css" rel="stylesheet" href="shopping_list_css/shop.css"/>
-	<script type="text/javascript" src="shopping_list_js/jquery.js"></script>
 	<script type="text/javascript" src="shopping_list_js/jquery.min.js"></script>
 	<script type="text/javascript" src="shopping_list_js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="shopping_list_js/shop.js"></script>
@@ -12,42 +11,32 @@
 	<center id="wrapper">
 		<div id="openSpace"></div>
 		<h1 id="pageTitle">SHOPPING LIST <img src="shopping_list_img/shopping_bag.jpeg" id="bag_logo"/></h1>
-		<form id="newItem">
-			<label id="add_new">Add Item: </label>
+		<div id="newItem">
+			<p id="add_new">Add Item: </p>
 			<input type="text" name="new_item" id="new_item" autocomplete="off"/>
-		</form>
+		</div>
 		<div id="list">
-			<form class="button">
-				<input class="sort" id="alpha" type="submit" value="Sort Alphabetically"/>
-			</form>
-			<form class="button">
-				<input class="sort" id="delete" type="submit" value="Delete Checked Items"/>
-			</form>
-			<h3 id="text_edit">Double Click Text to Edit Item</h3>
+			<button class="sort" id="alpha">Sort Alphabetically</button>
+			<button class="sort" id="delete">Delete Checked Items</button>
+			<h3 id="text_edit">Click Text to Edit Item</h3>
 			<ul id="sorted_list">
 				<li id="base" class="hidden">
-					<form class="list_item">
-						<input class="check" type="checkbox"/>
-						<p class="items">Item</p>
-					</form>
+					<span>
+						<input class="check" type="checkbox"/> 
+						<input type="text" class="items" value="Item">
+					</span>
 				</li>
-				<li>
-					<form class="list_item">
+				<li class="list_item">
 						<input type="checkbox" class="check">
-						<p class="items">Item 1</p>
-					</form>
+						<input type="text" class="items" value="Item 1">
 				</li>
-				<li>
-					<form class="list_item">
+				<li class="list_item">
 						<input type="checkbox" class="check"/>
-						<p class="items">Item 2</p>
-					</form>
+						<input type="text" class="items" value="Item 2">
 				</li>					
-				<li>
-					<form class="list_item">
+				<li class="list_item">
 						<input type="checkbox" class="check">
-						<p class="items">Item 3</p>
-					</form>
+						<input type="text" class="items" value="Item 3">
 				</li>
 			</ul>
 		</div>

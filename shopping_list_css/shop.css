@@ -78,6 +78,7 @@ table {
 	font-weight:bold;
 	color:#000;
 	font-family:Times, Arial, Helvetica;
+	display:inline-block;
 }
 .sort {
 	background-color:#556b2f;
@@ -89,7 +90,7 @@ table {
 	border-radius:15px;
 	font-family:Times New Roman, Times, Arial, Helvetica;
 }
-.button {
+button {
 	display:inline-block;
 	margin-bottom:15px;
 }
@@ -113,11 +114,17 @@ table {
 .hidden {
 	display:none;
 }
-.list_item p {
-	display:inline-block;
-	padding:10px;
-}
 .items {
+	font-size:14px;
+	font-family:Times New Roman, Times, Arial, Helvetica;
+	font-weight:bold;
+	color:#000;
+	border:none;
+	background-color:#d2b48c;
+}
+input.items:active {
+	border:1px solid #000;
+	background-color:#fff;
 	font-size:14px;
 	font-family:Times New Roman, Times, Arial, Helvetica;
 	font-weight:bold;

@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	//Alphabetical Sort
-	$("form#alpha").click(function(event){
+	$("button#alpha").click(function(event){
 		event.preventDefault();
 		$("ul#sorted_list li").sort(function(a,b){
 			return ($(b).text().toLowerCase())<($(a).text().toLowerCase());
@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$(this).siblings(".items").toggleClass("strike");
 	});
 	//Removing Checked Items
-	$("form#delete").click(function(event){
+	$("button#delete").click(function(event){
 		event.preventDefault();
 		$("ul#sorted_list").each(function(){
 			if($(this).find(".items").hasClass("strike")){
@@ -22,7 +22,7 @@ $(document).ready(function(){
 	});
 	//Text Edit with Double Click
 	$("p.items").dblclick(function(){
-		$(this).hide().after("<textarea class="edit" maxlength="140"></textarea>");
+		$(this).hide().after("<textarea class=\"edit\" maxlength=\"140\"></textarea>");
 		$("textarea.edit").focus();
 	//Handles Pressing Enter in Text Area
 		$("textarea.edit").keypress(function(event){
@@ -69,7 +69,9 @@ $(document).ready(function(){
 			if(!$.trim($(this).val())){
 				$("input#new_item").val("Items");
 			}
-			$("li#base").clone(true).appendTo("#sorted_list>li:last>form>span").text($("input#new_item").val());
+			console.log($("input#new_item").val());
+			$("li#base").clone(true).attr("class","").attr("id","").appendTo("#sorted_list");
+			$("#sorted_list>li:last>span>input.items").text($("input#new_item").val());
 			$("input#new_item").val("");
 
 			var doc_height = $(document).height();
