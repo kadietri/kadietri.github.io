@@ -3,19 +3,21 @@ $(document).ready(function(){
 	$("button#alpha").click(function(event){
 		event.preventDefault();
 		$("ul#sorted_list li").sort(function(a,b){
-			return ($(b).text().toLowerCase())<($(a).text().toLowerCase());
+			console.log($(b).find("input.items").val());
+			console.log($(a).find("input.items").val());
+			return ($(b).find("input.items").val().toLowerCase())<($(a).find("input.items").val().toLowerCase());
 		})
 		.appendTo("ul#sorted_list");
 	});
 	//Checkbox Strikethrough Item Text
 	$("input.check").change(function(){
-		$(this).siblings(".items").toggleClass("strike");
+		$(this).siblings("input.items").toggleClass("strike");
 	});
 	//Removing Checked Items
 	$("button#delete").click(function(event){
 		event.preventDefault();
-		$("ul#sorted_list").each(function(){
-			if($(this).find(".items").hasClass("strike")){
+		$("ul#sorted_list li").each(function(){
+			if($(this).find("input.items").hasClass("strike")){
 				$(this).remove();
 			}
 		});
@@ -71,7 +73,7 @@ $(document).ready(function(){
 			}
 			console.log($("input#new_item").val());
 			$("li#base").clone(true).attr("class","").attr("id","").appendTo("#sorted_list");
-			$("#sorted_list>li:last>span>input.items").text($("input#new_item").val());
+			$("#sorted_list>li:last>input.items").val($("input#new_item").val());
 			$("input#new_item").val("");
 
 			var doc_height = $(document).height();
