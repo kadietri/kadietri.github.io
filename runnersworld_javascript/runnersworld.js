@@ -25,6 +25,17 @@ $(document).ready(function(){
 		}
 	}
 	var rotate = setInterval(doRotate, 2000);
+	//Put Hover Thumbnail Image in Position 1
+	function fadeSelect(fade_id){
+		$(".slideshow_bar div").first().fadeOut().appendTo($(".slideshow_bar"));
+		$("slideshow_bar div#"+fade_id).prependTo($(".slideshow_bar")).fadeIn();
+	}
+	//Call Hover of Thumbnails
+	$("#thumbnail_left img.hover_thumbnail").hover(function(e){
+		e.preventDefault();
+		fadeSelect(e.attr('related_image_id'));
+	});
+
 });
 
 /*

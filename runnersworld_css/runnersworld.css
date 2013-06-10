@@ -597,14 +597,14 @@ li {
 	text-decoration:underline;
 }
 /*Thumbnails*/
-.thumbnail_left {
+#thumbnail_left {
 	position:absolute;
 	top:272px;
 	height:275px;
 	width:315px;
-	margin-left:50px;	
+	margin-left:70px;
 }
-.thumbnail_left img {
+#thumbnail_left img {
 	height:100px;
 	width:100px;
 	padding:1px;
